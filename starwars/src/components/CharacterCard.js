@@ -13,7 +13,7 @@ function CharacterCard(props) {
        eye_color
     } = props.character;
     return (
-        <div>
+        <div class="Card">
             <h2>Name: {name}</h2>
             <p>Birth Year: {birth_year}</p>
             <p>Gender: {gender}</p>
